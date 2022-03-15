@@ -1,0 +1,11 @@
+name: mmsbd1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - matplotlib
+  - pydicom
+  - pip
+  - pip:
+    - requests
+    - hachoir
